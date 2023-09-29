@@ -81,7 +81,7 @@ public class AppData {
             default: throw new IllegalArgumentException("Tipus desconegut: " + type);
         }
 
-        loadData(arxiu, (receivedData) -> { //---------------------------------------------------oqowoqqwoqwoqwooqwowqoqw
+        loadData(arxiu, (receivedData) -> { 
         if (receivedData == null) {
             callBack.accept(null);
             return;
