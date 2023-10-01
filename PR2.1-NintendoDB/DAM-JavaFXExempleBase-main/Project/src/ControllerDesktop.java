@@ -108,7 +108,7 @@ public class ControllerDesktop  implements Initializable{
           //Obtenir les dades de lopcio seleccionada
         JSONObject dades = appData.getItemData(type, index);
           //Carrega la plantilla
-        URL resource = this.getClass().getResource("assets/template_info_.fxml");;
+        URL resource = this.getClass().getResource("assets/template_info_item.fxml");
         switch (type){
           case "Consoles":
             resource = this.getClass().getResource("assets/template_info_consoles.fxml");

@@ -14,7 +14,7 @@
             <ImageView fx:id="img" fitHeight="147.0" fitWidth="176.0" pickOnBounds="true" preserveRatio="true" />
             <Label fx:id="title" alignment="CENTER" text="Nombre">
                <font>
-                  <Font size="20.0" />
+                  <Font name="System Bold" size="20.0" />
                </font>
                <VBox.margin>
                   <Insets top="25.0" />
